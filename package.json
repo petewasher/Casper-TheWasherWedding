@@ -94,7 +94,8 @@
                 "type": "select",
                 "options": [
                     "Modern sans-serif",
-                    "Elegant serif"
+                    "Elegant serif",
+                    "Oswald"
                 ],
                 "default": "Modern sans-serif"
             },
@@ -102,7 +103,8 @@
                 "type": "select",
                 "options": [
                     "Modern sans-serif",
-                    "Elegant serif"
+                    "Elegant serif",
+                    "Oswald"
                 ],
                 "default": "Elegant serif"
             },
