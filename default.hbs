@@ -59,12 +59,6 @@
                         <a class="gh-social-twitter" href="{{twitter_url @site.twitter}}" title="Twitter" target="_blank" rel="noopener">{{> "icons/twitter"}}</a>
                     {{/if}}
                 </div>
-
-                {{#unless @member}}
-                    <a class="gh-head-button" href="#/portal/signup" data-portal="signup">Subscribe</a>
-                {{else}}
-                    <a class="gh-head-button" href="#/portal/account" data-portal="account">Account</a>
-                {{/unless}}
             </div>
         </nav>
     </header>
@@ -81,7 +75,7 @@
             <nav class="site-footer-nav">
                 {{navigation type="secondary"}}
             </nav>
-            <div><a href="https://ghost.org/" target="_blank" rel="noopener">Running on Ghost</a></div>
+            <div><a href="#" target="_blank" rel="noopener">Running on Ghost</a></div>
         </div>
     </footer>
 
